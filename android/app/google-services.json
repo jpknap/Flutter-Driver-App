@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "740888461731",
+    "project_id": "drivering-app",
+    "storage_bucket": "drivering-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740888461731:android:95a4873f7aa13b3b291a16",
+        "android_client_info": {
+          "package_name": "com.example.drivering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740888461731-013e3noof7aoj6uaf2bj76dd25evvl7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8TTroPAwE2tLoDY58TmyJ8Qp9A-hQPjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740888461731-013e3noof7aoj6uaf2bj76dd25evvl7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
