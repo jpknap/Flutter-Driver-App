@@ -28,6 +28,7 @@ class Driver {
       );
 
   Map<String, dynamic> toJson() => {
+        "id": id,
         "username": username,
         "email": email,
         "password": password,

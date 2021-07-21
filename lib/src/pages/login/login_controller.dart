@@ -48,10 +48,10 @@ class LoginController {
           }
         } else if (this.userType == 'driver') {
           print('verificando driver');
+          print(_authProvider.getUser()!.uid);
           Driver? driver =
               await _driverProvider.getById(_authProvider.getUser()!.uid);
           print('____________________________________________-');
-          print(driver);
           if (driver is Driver) {
             Navigator.pushNamedAndRemoveUntil(
                 context, 'driver/map', (route) => false);

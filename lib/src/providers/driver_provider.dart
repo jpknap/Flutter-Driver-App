@@ -20,6 +20,7 @@ class DriverProvider {
 
   Future<Driver?> getById(String id) async {
     DocumentSnapshot document = await _ref.doc(id).get();
+    print(document.data());
 
     if (document.exists) {
       Driver driver = Driver.fromJson(document.data() as Map<String, dynamic>);
